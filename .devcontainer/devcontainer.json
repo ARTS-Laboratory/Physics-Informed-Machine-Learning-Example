@@ -1,1 +1,11 @@
-{"image":"mcr.microsoft.com/devcontainers/universal:2"}
+{
+  "customizations": {
+    "codespaces": {
+      "repositories": {
+        "ARTS-Laboratory/Physics-Informed-Machine-Learning-Example": {
+          "permissions": "write-all"
+        }
+      }
+    }
+  }
+}
